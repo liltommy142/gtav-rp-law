@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 contentWrapper.innerHTML = html;
 
                 // Mặc định chỉ mở file đầu tiên
-                if (index > 0) {
-                    section.classList.add("collapsed");
-                }
+                // if (index > 0) {
+                //     section.classList.add("collapsed");
+                // }
 
                 section.appendChild(toggleButton);
                 section.appendChild(contentWrapper);
